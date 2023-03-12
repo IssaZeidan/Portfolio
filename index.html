@@ -11,13 +11,17 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
-    <link href="Portfolio.css" rel="stylesheet" />
+    <link href="Portfolio.css" rel="stylesheet"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <!-- Container wrapper -->
         <div class="container-fluid">
+
+          <img src="./issa-zeidan-logo.png "alt="issa-zeidan-logo" height="50px">
+          <i class="fas fa-bars"></i>
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -28,7 +32,6 @@
             aria-expanded="true"
             aria-label="Toggle navigation"
           >
-            <i class="fas fa-bars"></i>
           </button>
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse position-sticky"id="navbarRightAlignExample">
@@ -37,18 +40,14 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
-
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">Experience</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Certificates">Certificates</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact-me">Contact Me</a>
@@ -72,9 +71,8 @@
         <h2 class="frame-5">
           <span>BELIEVE,</span>
           <span>CHANGE,</span>
-          <span>EXPERIANCE.</span>
+          <span>EXPERIENCE.</span>
         </h2>
-        <a class="sp-circle-link" href="https://github.com/IssaZeidan">by Issa</a>
       </div>
     </div>
     <!-- Background image -->
@@ -82,7 +80,7 @@
       class="p-5 text-center bg-image"
       style="
         background-image: url('https://images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-        height: 400px;
+        height: 1000px;
         background-repeat: no-repeat;
         background-size:cover;
       ">
@@ -93,126 +91,107 @@
       </div>
     </div>
   </section>
-    <section id="About" class="section scrollspy h-100">
-      
-      <h3 class="page-title white-text teal text-center">About</h3>
+  <section id="About">
+        <h3 class="projects-section-header">About</h3>
+        <p class="text">
+          Hi, I'm Issa Zeidan, a web developer in the making with a passion for creating stunning, user-friendly websites. Though my background is in customer service, I'm excited to be transitioning into the tech industry and learning all about web development.</p>
   
-      <p class="text">
-        Hi, I'm Issa Zeidan, a web developer in the making with a passion for creating stunning, user-friendly websites. Though my background is in customer service, I'm excited to be transitioning into the tech industry and learning all about web development.</p>
+          <p class="text">
+          With 3 years of experience in customer service and 8 months as a cashier, I've developed a strong skill set in communication, problem-solving, and time management. These skills have served me well in my current role as a web developer, where I'm able to apply them to developing solutions </p>
+  
+          <p class="text">
+            I'm excited to continue growing as a web developer and working on projects that challenge me to push the boundaries of what's possible. Thanks for visiting my portfolio
+          </p>
+        </div>
+      </section>
+  
+    <section id="projects" class="w-100">
+      <h2 class="projects-section-header">My Project's</h2>
+      <div class="projects-grid">
+          <a href="https://www.figma.com/file/6cJniR0UxcRhsTNYoXAoBw/E-Learning?node-id=0%3A1&t=54CS5SlhmyYDh6tp-0" target="_blank" class="project project-tile">
+              <img class="project-image"
+                  src="./Screenshot 2023-03-12 190737.png" alt="project" />
+              <p class="project-title">
+                 E-Learning
+              </p>
+          </a>
+          <a href="https://www.figma.com/file/eyEEohAJKkVcC3X4X7nMMU/Portfilo" target="_blank" class="project project-tile">
+              <img class="project-image"
+                  src="./Screenshot 2023-03-12 190447.png"
+                  alt="project" />
+              <p class="project-title">
+                  Portfolio
+              </p>
+          </a>
+  </section>
 
-        <p class="text">
-        With 3 years of experience in customer service and 8 months as a cashier, I've developed a strong skill set in communication, problem-solving, and time management. These skills have served me well in my current role as a web developer, where I'm able to apply them to developing solutions </p>
-
-        <p class="text">
-          I'm excited to continue growing as a web developer and working on projects that challenge me to push the boundaries of what's possible. Thanks for visiting my portfolio
-        </p>
-    </section>
-<hr>
-    <section id="projects" class="section scrollspy h-100">
-      <h3 class="page-title white-text teal m-2 text-center">Projects</h3>
-    </section>
-    <div class="container d-flex flex-sm-column flex-md-row my-2 mx-auto justify-content-center">  
-    <div class="card">
-      <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/184.webp" class="card-img-top" alt="E-learning"/>
-      <div class="card-body">
-        <h5 class="card-title">E-learning</h5>
-        <p class="card-text">An example of my first Mockup projects</p>
-        <a href="https://www.figma.com/file/6cJniR0UxcRhsTNYoXAoBw/E-Learning?node-id=0%3A1&t=54CS5SlhmyYDh6tp-0" class="btn btn-primary">View more</a>
-      </div>
-    </div>
-    <div class="card">
-        <img src="https://mdbcdn.b-cdn.net/img/new/standard/nature/111.webp" class="img-fluid"/>
-      <div class="card-body">
-        <h5 class="card-title">Portfolio</h5>
-        <p class="card-text"> A second Mockup project</p>
-        <a href="https://www.figma.com/file/eyEEohAJKkVcC3X4X7nMMU/Portfilo" class="btn btn-primary">View more</a>
-      </div>
-    </div>
-    </div>
-
-<hr>
-    <div class="my-5 text" id="skills">
-    <h3 class="page-title white-text teal m-2 text-center">Skills</h3>
+  <div id="skills" class="project-section w-100">
+    <h2 class="projects-section-header">Skills</h2>
     <div class="d-flex flex-wrap justify-content-center mx-auto w-75  text-center"> 
-      <p class="mx-2"> Self-Motivated
+      <p class="text mx-2"> Self-Motivated
       </p>
-      <p class="mx-2"> Time-Management
+      <p class="text mx-2"> Time-Management
       </p>
-      <p class="mx-2"> Tech Savvy
+      <p class="text mx-2"> Tech Savvy
       </p>
-      <p class="mx-2"> Flexibility
+      <p class="text mx-2"> Flexibility
       </p>
-      <p class="mx-2"> listening skills
+      <p class="text mx-2"> listening skills
       </p>
-      <p class="mx-2"> problem-solving
+      <p class="text mx-2"> problem-solving
       </p>
     </div>
-  </div>
-  <hr>
-<div id="experience">
-  <h3 class="page-title white-text teal m-2 text-center">Experience</h3>
-  <div class="d-flex flex-wrap justify-content-center mx-auto w-75  text-center">
-    <p class="mx-2 text"> Customer service support @ Crystel (from Apr/2019 until Dec/2022)
-    </p> 
-    <p class="mx-2 text"> Cashier @ Ku De Ta Rooftop (from Apr/2018 until Dec/2018)
-    </p>
-    <p class="mx-2 text"> Operations & Ticketing agent @ Bosphorus travel agency (from Oct/2015 until Mar/2016)
-    </p>
-  </div>
-</div>
+    <h2 class="Technical-Skills">Technical skills</h2>
+    <img src="https://cdn0.iconfinder.com/data/icons/social-network-7/50/22-1024.png" width="5%" class="html">
+    <img src="https://cdn-icons-png.flaticon.com/512/919/919826.png" width="5%" class="css">
+    <img src="https://th.bing.com/th/id/OIP.CPKMFkOXlheg9GqIJqkDgwHaHa?pid=ImgDet&rs=1" width="5%" class="BS">
+    <img src="https://icon-library.com/images/git-icon/git-icon-0.jpg" width="5%" class="Git">
+    <img src="https://cdn1.iconfinder.com/data/icons/smallicons-logotypes/32/github-1024.png" width="5%" class="Github">
+  </h2>
+</section>
 
-<hr>
-<div id="Certificates">
-    <h3 class="page-title white-text teal m-2 text-center">Certificates</h3>
-  <div class="d-flex flex-wrap justify-content-center mx-auto w-75  text-center">
-    <p class="mx-2 text"> Azure fundamental certificate
-    </p>
-    <p class="mx-2 text"> Galileo certificate
-    </p>
-    <p class="mx-2 text"> Saber certificate
-    </p>
-    <p class="mx-2 text"> Training diploma of hotels and tourism management
-    </p>
-    <p class="mx-2 text"> High-school certificate
-    </p>
-  </div>
-</div>
-
-<hr>
+<section>
 <Footer>
-  <div id="contact-me">
-  <h3 class="page-title white-text teal m-2 text-center">Contact Me</h3>
+  <section id="contact-me" class="project-section w-100">
+    <h2 class="projects-section-header">contact me</h2>
   <div class="d-flex flex-row justify-content-between mx-auto w-75">
     <p class="mx-2">
-      <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/29-512.png"width="15%">
-      <a target="_blank" href="https://github.com/IssaZeidan">Github</a>
+      <a target="_blank" href="https://github.com/IssaZeidan">
+        <img src="https://cdn0.iconfinder.com/data/icons/social-network-9/50/29-512.png"width="15%">
+      </a>
     </p>
 
       <p class="mx-2"> 
-        <img src="https://th.bing.com/th/id/OIP.Ii7XoVXolhX8bpJIVe8REQHaHa?pid=ImgDet&rs=1" width="15%">
         <a
-        href="mailto:issa.zeidan94@gmail.com">Email</a>
+        href="mailto:issa.zeidan94@gmail.com">
+        <img src="https://icons.iconarchive.com/icons/johnathanmac/mavrick/512/Mail-icon.png" width="15%" >
+      </a>
       </p>
+
       <p class="mx-2"> 
-        <img src="https://cdn2.iconfinder.com/data/icons/flaturici-set-8/512/phone_call-512.png" width="15%">
-        <a href="tel:+962777627435">Mobile</a>
+        <a href="tel:+962777627435">
+        <img src="https://th.bing.com/th/id/R.f612ffc82b5daa4e8cba9440f8f0fefe?rik=YGyfETzILslk7g&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_186875.png&ehk=SIfi3NUcoxovMnCMQEOlGSnApTXa6mX5GJ4vwYXe9wc%3d&risl=&pid=ImgRaw&r=0" width="7%">
+        </a>
       </p>
       <p class="mx-2">
-        <img src="https://th.bing.com/th/id/OIP.F3-16eX8AnELo_4p00aZUAHaHa?pid=ImgDet&rs=1" width="15%">
-        <a target="_blank" href="https://www.linkedin.com/in/issa-zeidan-599790166/">Linkedin</a>
+        <a target="_blank" href="https://www.linkedin.com/in/issa-zeidan-599790166/">
+        <img src="https://www.freeiconspng.com/thumbs/linkedin-icon/linkedin-icon-2.png" width="23%">
+       </a>
       </p>
     </div>
+    
     <p id="foot">
       &copy; 2023, Made with ❤ by
       <a id="fot" href="https://www.linkedin.com/in/issa-zeidan-599790166/" target="_blank">Issa Zeidan
       </a>
   </p>
-  
   </Footer>
+</section>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous">
   </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   </body>
 </html>
