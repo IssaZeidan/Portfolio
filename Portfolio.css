@@ -72,16 +72,15 @@ p.demos {
   -moz-animation-delay: 6s;
   -ms-animation-delay: 6s;
   animation-delay: 6s;
+  font-size: xx-large;
 }
 .sp-container h2.frame-4 {
   font-size: 50px;
-  -webkit-animation-delay: 9s;
   -moz-animation-delay: 9s;
   -ms-animation-delay: 9s;
   animation-delay: 9s;
 }
 .sp-container h2.frame-5 {
-  -webkit-animation: none;
   -moz-animation: none;
   -ms-animation: none;
   animation: none;
@@ -89,24 +88,24 @@ p.demos {
   text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-5 span {
-  -webkit-animation: blurFadeIn 3s ease-in 12s backwards;
   -moz-animation: blurFadeIn 1s ease-in 12s backwards;
   -ms-animation: blurFadeIn 3s ease-in 12s backwards;
   animation: blurFadeIn 3s ease-in 12s backwards;
   color: transparent;
   text-shadow: 0px 0px 1px #fff;
+  font-size: xx-large;
 }
 .sp-container h2.frame-5 span:nth-child(2) {
-  -webkit-animation-delay: 13s;
   -moz-animation-delay: 13s;
   -ms-animation-delay: 13s;
   animation-delay: 13s;
+  font-size: xx-large;
 }
 .sp-container h2.frame-5 span:nth-child(3) {
-  -webkit-animation-delay: 14s;
   -moz-animation-delay: 14s;
   -ms-animation-delay: 14s;
   animation-delay: 14s;
+  font-size: xx-large;
 }
 .sp-globe {
   position: absolute;
@@ -330,11 +329,9 @@ body{
 }
 
 .projects-grid {
-  display: grid;
+  display:flex;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
-  margin:  auto;
-  padding: 15px;
 }
 @media (max-width: 30.625em) {
   .projects-section {
@@ -356,7 +353,6 @@ body{
   transition: all 2s, transform 0.5s, ;
 }
 .project:hover {
-
   transform: scale(1.06);
 } 
 .project-image {
@@ -392,9 +388,9 @@ body{
 
 
 .Technical-Skills{
-  width: %;
+  width: 100%;
   max-width: 640px;
-  margin: 3rem auto 6rem auto;
+  margin: 6rem auto 6rem auto;
   border-bottom: 0 solid white;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -403,7 +399,4 @@ body{
   letter-spacing: 3px;
   box-shadow: 0 5px 20px #ddd;
   text-align: center;
-}
-.project-image-1{
-  height: auto;
 }
