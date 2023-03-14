@@ -309,8 +309,7 @@ body{
 }
 .projects-section {
   text-align: center;
-  padding: 10rem 2rem;
-  background: #eceff1;
+  padding: 10rem 1rem;
   margin-top: 20rem;
 }
 .projects-section-header {
@@ -334,7 +333,6 @@ body{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
-  max-width: 100%;
   margin:  auto;
   padding: 15px;
 }
@@ -364,13 +362,13 @@ body{
 .project-image {
   height: calc(100% - 6.8rem);
   width: 100%;
-  object-fit: cover;
+  object-fit:cover;
   border-top-right-radius: 5px;
   border-top-left-radius: 5px;
 }
 .project-title {
   font-family: "Poppins", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   padding: 2rem 0.5rem;
   color: #fff;
@@ -394,7 +392,7 @@ body{
 
 
 .Technical-Skills{
-  width: 80%;
+  width: %;
   max-width: 640px;
   margin: 3rem auto 6rem auto;
   border-bottom: 0 solid white;
@@ -406,10 +404,6 @@ body{
   box-shadow: 0 5px 20px #ddd;
   text-align: center;
 }
-
-@media screen and (max-width: 600px) {
-  .sp-container h2 {
-    font-size: 2rem;
-  }
-  
+.project-image-1{
+  height: auto;
 }
